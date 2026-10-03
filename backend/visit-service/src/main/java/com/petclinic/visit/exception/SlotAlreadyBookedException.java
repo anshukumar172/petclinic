@@ -1,0 +1,9 @@
+package com.petclinic.visit.exception;
+
+public class SlotAlreadyBookedException
+extends RuntimeException {
+
+public SlotAlreadyBookedException(String message) {
+super(message);
+}
+}
